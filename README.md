@@ -2,28 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>GORILLA TAG ARCHIVE</title>
+  <title>Gorilla Tag Archive</title>
   <style>
     body {
       background-color: #1e1e1e;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
-    h1 {
+    .gradient-text {
       font-family: Arial, sans-serif;
       font-size: 2.5rem;
       background: linear-gradient(to right, purple, pink);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      text-align: center;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <h1># GORILLA TAG ARCHIVE CURRENT VERSION</h1>
+  <h1 class="gradient-text">GORILLA TAG ARCHIVE CURRENT VERSION</h1>
 </body>
 </html>
