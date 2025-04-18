@@ -11,19 +11,31 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
     }
 
     .gradient-text {
-      font-family: Arial, sans-serif;
-      font-size: 2.5rem;
       background: linear-gradient(to right, purple, pink);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      margin-top: 40px;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    h1.gradient-text {
+      font-size: 2.5rem;
+    }
+
+    h2.gradient-text {
+      font-size: 1.5rem;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <h1 class="gradient-text">GORILLA TAG ARCHIVE CURRENT VERSION</h1>
+  <h2 class="gradient-text">CRITTER UPDATE 2025</h2>
 </body>
 </html>
