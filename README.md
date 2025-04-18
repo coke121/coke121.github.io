@@ -32,19 +32,6 @@
       margin-top: 20px;
     }
   </style>
-
-  <script>
-    // This script will remove any unwanted "coke121" text if it's appearing dynamically
-    window.onload = function() {
-      // Remove unwanted elements (check for a div or any content that shouldn't be there)
-      const unwantedText = document.querySelectorAll('div, span, p');
-      unwantedText.forEach(element => {
-        if (element.textContent.includes('coke121')) {
-          element.remove();  // Remove the element containing the unwanted text
-        }
-      });
-    };
-  </script>
 </head>
 <body>
   <h1 class="gradient-text">GORILLA TAG ARCHIVE CURRENT VERSION</h1>
